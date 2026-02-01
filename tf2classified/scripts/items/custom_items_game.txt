@@ -1649,7 +1649,7 @@
 			"anim_slot"					"ITEM1"
 			
 			"item_quality"				"unique"
-			"item_name"					"Second Banana"
+			"item_name"					"The Second Banana"
 			"item_type_name"			"#TF_Weapon_LunchBox"
 			"item_description"			"Heavy find this not so degrading."
 			
@@ -1835,7 +1835,7 @@
 			"show_in_armory"			"1"
 			
 			"item_quality"				"unique"
-			"item_name"					"Axtinguisher"
+			"item_name"					"The Axtinguisher"
 			"item_type_name"			"#TF_Weapon_Fireaxe"
 			"item_description"			"This'll hurt a lot more now."
 
