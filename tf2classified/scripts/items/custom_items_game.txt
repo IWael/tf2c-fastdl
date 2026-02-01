@@ -1592,7 +1592,7 @@
 			"item_slot"					"primary"
 			
 			"item_quality"				"unique"
-			"item_name"					"Direct Hit"
+			"item_name"					"The Direct Hit"
 			"item_type_name"			"#TF_Weapon_RocketLauncher"
 			"item_description"			"You sissified maggot scum have just signed your death warrants!"
 
@@ -1940,12 +1940,12 @@
 			}
 			"visuals"
 			{
-				"sound_double_shot"		"Weapon_Natascha.Fire"
-				"sound_burst"	    	"Weapon_Natascha.FireCrit"
-				"sound_empty"	    	"Weapon_Natascha.ClipEmpty"
-				"sound_special1"		"Weapon_Natascha.WindUp"
-				"sound_special2"		"Weapon_Natascha.WindDown"
-				"sound_special3"		"Weapon_Natascha.Spin"
+				"sound_double_shot"		"Weapon_Minifun.Fire"
+				"sound_burst"	    	"Weapon_Minifun.FireCrit"
+				"sound_empty"	    	"Weapon_Minifun.ClipEmpty"
+				"sound_special1"		"Weapon_Minifun.WindUp"
+				"sound_special2"		"Weapon_Minifun.WindDown"
+				"sound_special3"		"Weapon_Minifun.Spin"
 			}
 			"mouse_pressed_sound"		"#ui/item_crate_drop.wav"
 			"drop_sound"				"#ui/item_crate_pickup.wav"
