@@ -108,7 +108,7 @@
 			
 			"propername"				"1"
 			"item_quality"				"unique"
-			"item_name"					"The Gunslinger"
+			"item_name"					"Gunslinger"
 			"item_type_name"			"#TF_Weapon_Wrench"
 			"item_iconname"			 	"robot_arm_kill"
 			"item_description"			""
@@ -187,7 +187,7 @@
 			
 			"propername"				"1"
 			"item_quality"				"unique"
-			"item_name"					"The Wrangler"
+			"item_name"					"Wrangler"
 			"item_type_name"			"#TF_Weapon_Wrench"
 			"model_player"				"models/weapons/c_models/c_wrangler.mdl"
 			"image_inventory"           "backpack/weapons/c_models/c_wrangler"
@@ -1633,6 +1633,12 @@
 					"value"				"0.3"
 				}
 			}
+			"visuals"
+			{
+				"sound_single_shot"	    "Weapon_RPG_DirectHit.Single"
+				"sound_burst"	    	"Weapon_RPG_DirectHit.SingleCrit"
+				"sound_special1"		"Weapon_RPG_DirectHit.Explode"
+			}
 		}
 		
 		"30025"
@@ -1821,48 +1827,6 @@
 				}
 			}
 		}
-		
-		"30028"
-		{
-			"name"						"ba_w_gardener"
-			"item_class"				"tf_weapon_shovel"
-			"item_slot"					"melee"
-			"show_in_armory"			"1"
-			
-			"item_quality"				"unique"
-			"item_name"					"Market Gardener"
-			"item_type_name"			"#TF_Weapon_Shovel"
-			"item_description"			"Like an eagle, I fly through the skies to demolish you maggots!"
-
-			"item_logname"				"market_gardener"
-
-			"image_inventory"			"backpack/weapons/w_models/w_market_gardener"
-			"model_world"				"models/weapons/w_models/w_market_gardener.mdl"
-			"model_player"				"models/weapons/v_models/v_market_gardener_soldier.mdl"
-			"attach_to_hands"			"2"
-			"used_by_classes"
-			{
-				"soldier"				"1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"	"10 -6 -12"
-			}
-			"attributes"
-			{
-				"mod crit while airborne"
-				{
-					"attribute_class"	"crit_while_airborne"
-					"value"				"1"
-				}
-				"crit mod disabled"
-				{
-					"attribute_class"	"mult_crit_chance"
-					"value"				"0"
-				}
-			}
-		}
-		
 		"30029"
 		{
 			"name"						"ba_w_axtinguisher"

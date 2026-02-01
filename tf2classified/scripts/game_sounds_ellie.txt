@@ -391,3 +391,38 @@
 	"soundlevel"  	"SNDLVL_95dB"
 	"wave"  		"vo/sword_idle15.wav"
 }
+
+
+
+
+// Direct Hit
+
+"Weapon_RPG_DirectHit.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")weapons/rocket_directhit_shoot.wav"
+}
+
+"Weapon_RPG_DirectHit.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")weapons/rocket_directhit_shoot_crit.wav"
+}
+
+"Weapon_RPG_DirectHit.Explode"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_95dB"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		")weapons/rocket_directhit_explode1.wav"
+		"wave"		")weapons/rocket_directhit_explode2.wav"
+		"wave"		")weapons/rocket_directhit_explode3.wav"
+	}
+}
