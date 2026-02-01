@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\models\weapons\c_models\c_handy_partner\handy_partner_screen.vmt"
+
+	insert
+	{
+	"$basetexture"	"models\weapons\c_models\c_handy_partner\handy_partner_screen_grn"
+	"$envmaptint"	"[0.35 0.45 0.25]"
+	}
+}

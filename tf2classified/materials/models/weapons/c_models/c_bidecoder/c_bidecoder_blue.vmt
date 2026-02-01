@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/weapons/c_models/c_bidecoder/c_bidecoder.vmt"
+
+	insert
+	{
+	"$basetexture"	"models/weapons/c_models/c_bidecoder/c_bidecoder_blue"
+	}
+}

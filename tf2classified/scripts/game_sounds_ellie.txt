@@ -1,0 +1,393 @@
+// ------------------------------------------------------------------------------------ //
+// TRENCHGUN (PANIC ATTACK)
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_Trenchgun.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/trenchgun_fire.wav"
+}
+
+"Weapon_Trenchgun.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/trenchgun_fire_crit.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// TOMISLAV
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_Tomislav.Fire"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/tomislav_shoot.wav"
+}
+
+"Weapon_Tomislav.FireCrit"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/tomislav_shoot_crit.wav"
+}
+
+"Weapon_Tomislav.WindDown"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/tomislav_wind_down.wav"
+}
+
+"Weapon_Tomislav.WindUp"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/tomislav_wind_up.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// COLDBLOOD
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_EvictionNotice.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1"
+	"rndwave"
+	{
+		"wave"		"weapons/eviction_notice_draw1.wav"
+		"wave"		"weapons/eviction_notice_draw2.wav"
+		"wave"		"weapons/eviction_notice_draw3.wav"
+		"wave"		"weapons/eviction_notice_draw4.wav"
+	}
+}
+
+// ------------------------------------------------------------------------------------ //
+// NATASCHA
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_Natascha.Fire"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/natascha_shoot.wav"
+}
+
+"Weapon_Natascha.FireCrit"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/natascha_shoot_crit.wav"
+}
+
+"Weapon_Natascha.ClipEmpty"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")weapons/natascha_empty.wav"
+}
+
+"Weapon_Natascha.Spin"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")weapons/natascha_spin.wav"
+}
+
+"Weapon_Natascha.WindDown"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/natascha_wind_down.wav"
+}
+
+"Weapon_Natascha.WindUp"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"weapons/natascha_wind_up.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// SWORDS
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_Sword.Idle"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"  	"vo/sword_idle01.wav"
+		"wave"  	"vo/sword_idle02.wav"
+		"wave"  	"vo/sword_idle03.wav"
+		"wave"  	"vo/sword_idle04.wav"
+		"wave"  	"vo/sword_idle05.wav"
+		"wave"  	"vo/sword_idle06.wav"
+		"wave"  	"vo/sword_idle07.wav"
+		"wave"  	"vo/sword_idle08.wav"
+		"wave"  	"vo/sword_idle09.wav"
+		"wave"  	"vo/sword_idle10.wav"
+		"wave"  	"vo/sword_idle11.wav"
+		"wave"  	"vo/sword_idle12.wav"
+		"wave"  	"vo/sword_idle13.wav"
+		"wave"  	"vo/sword_idle14.wav"
+		"wave"  	"vo/sword_idle15.wav"
+	}
+}
+"Weapon_Sword.HitHeads"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"  	"vo/sword_hit01.wav"
+		"wave"  	"vo/sword_hit02.wav"
+		"wave"  	"vo/sword_hit03.wav"
+		"wave"  	"vo/sword_hit04.wav"
+		"wave"  	"vo/sword_hit05.wav"
+		"wave"  	"vo/sword_hit06.wav"
+		"wave"  	"vo/sword_hit07.wav"
+		"wave"  	"vo/sword_hit08.wav"
+		"wave"  	"vo/sword_hit09.wav"
+		"wave"  	"vo/sword_hit10.wav"
+	}
+}
+
+"Sword.HitRand"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"  	"vo/sword_hit01.wav"
+		"wave"  	"vo/sword_hit02.wav"
+		"wave"  	"vo/sword_hit03.wav"
+		"wave"  	"vo/sword_hit04.wav"
+		"wave"  	"vo/sword_hit05.wav"
+		"wave"  	"vo/sword_hit06.wav"
+		"wave"  	"vo/sword_hit07.wav"
+		"wave"  	"vo/sword_hit08.wav"
+		"wave"  	"vo/sword_hit09.wav"
+		"wave"  	"vo/sword_hit10.wav"
+	}
+}
+"Sword.IdleRand"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"  	"vo/sword_idle01.wav"
+		"wave"  	"vo/sword_idle02.wav"
+		"wave"  	"vo/sword_idle03.wav"
+		"wave"  	"vo/sword_idle04.wav"
+		"wave"  	"vo/sword_idle05.wav"
+		"wave"  	"vo/sword_idle06.wav"
+		"wave"  	"vo/sword_idle07.wav"
+		"wave"  	"vo/sword_idle08.wav"
+		"wave"  	"vo/sword_idle09.wav"
+		"wave"  	"vo/sword_idle10.wav"
+		"wave"  	"vo/sword_idle11.wav"
+		"wave"  	"vo/sword_idle12.wav"
+		"wave"  	"vo/sword_idle13.wav"
+		"wave"  	"vo/sword_idle14.wav"
+		"wave"  	"vo/sword_idle15.wav"
+	}
+}
+
+"Sword.Hit01"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit01.wav"
+}
+"Sword.Hit02"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit02.wav"
+}
+"Sword.Hit03"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit03.wav"
+}
+"Sword.Hit04"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit04.wav"
+}
+"Sword.Hit05"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit05.wav"
+}
+"Sword.Hit06"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit06.wav"
+}
+"Sword.Hit07"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit07.wav"
+}
+"Sword.Hit08"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit08.wav"
+}
+"Sword.Hit09"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit09.wav"
+}
+"Sword.Hit10"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_hit10.wav"
+}
+"Sword.Idle01"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle01.wav"
+}
+"Sword.Idle02"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle02.wav"
+}
+"Sword.Idle03"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle03.wav"
+}
+"Sword.Idle04"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle04.wav"
+}
+"Sword.Idle05"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle05.wav"
+}
+"Sword.Idle06"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle06.wav"
+}
+"Sword.Idle07"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle07.wav"
+}
+"Sword.Idle08"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle08.wav"
+}
+"Sword.Idle09"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle09.wav"
+}
+"Sword.Idle10"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle10.wav"
+}
+"Sword.Idle11"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle11.wav"
+}
+"Sword.Idle12"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle12.wav"
+}
+"Sword.Idle13"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle13.wav"
+}
+"Sword.Idle14"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle14.wav"
+}
+"Sword.Idle15"
+{
+	"channel"  		"CHAN_ITEM"
+	"volume"  		"0.30"
+	"soundlevel"  	"SNDLVL_95dB"
+	"wave"  		"vo/sword_idle15.wav"
+}
