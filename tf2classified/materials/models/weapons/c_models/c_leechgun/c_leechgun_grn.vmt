@@ -1,9 +1,0 @@
-"Patch"
-{
-	include "materials\models\weapons\c_models\c_leechgun\c_leechgun.vmt"
-
-	insert
-	{
-	"$basetexture"	"models\weapons\c_models\c_leechgun\c_leechgun_grn"
-	}
-}
